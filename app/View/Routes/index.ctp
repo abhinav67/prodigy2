@@ -39,8 +39,6 @@
 						<th><?php echo $this->Paginator->sort('secondary_employee_id',"Secondary Driver"); ?></th>
 						<th><?php echo $this->Paginator->sort('from',"From"); ?></th>
 						<th><?php echo $this->Paginator->sort('to',"To"); ?></th>
-						
-						<th><?php echo $this->Paginator->sort('to',"To"); ?></th>
 						<th><?php echo $this->Paginator->sort('description'); ?></th>
 						<th><?php echo $this->Paginator->sort('notes'); ?></th>
 						<th class="actions"></th>
