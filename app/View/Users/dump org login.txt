@@ -1,0 +1,30 @@
+   <!--login modal-->
+<!-- <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+
+          <h2 class="text-center">DCMS Dashboard Login</h2>
+      </div>
+      <div class="modal-body">
+         <div class="users form">
+         <?php echo $this->Session->flash('auth'); ?>
+         <?php echo $this->Form->create('User'); ?>
+
+               <?php echo $this->Form->input('username',array('label'=>false,'placeholder'=>'username','class'=>'form-control input-lg'));
+                 echo "<br>";
+                 echo $this->Form->input('password',array('label'=>false,'placeholder'=>'password','class'=>'form-control input-lg'));
+             ?>
+
+         </div>
+      </div>
+      <div class="modal-footer">
+          <div class="col-md-12">
+         <div class="form-group">
+           			<?php echo $this->Form->submit(__('Sign In'), array('class' => 'btn btn-primary')); ?>
+    	</div>
+		  </div>
+      </div>
+  </div>
+  </div>
+</div> -->

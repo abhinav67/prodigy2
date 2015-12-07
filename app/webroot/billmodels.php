@@ -1,0 +1,9 @@
+<?php
+$this->loadModel('Company');
+$this->loadModel('Charge');
+$this->loadModel('Customers');
+$this->loadModel('CustomerInsurance');
+$this->loadModel('Icd9Customer');
+$this->loadModel('Icd10Customer');
+$this->loadModel('PayerName');
+?>

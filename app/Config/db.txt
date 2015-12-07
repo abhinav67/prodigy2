@@ -1,0 +1,12 @@
+<?php
+class DATABASE_CONFIG {
+
+	public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => 'prodigyn_raman63',
+		'password' => 'raman11631',
+		'database' => 'prodigyn_drm631',
+	);
+}
