@@ -1,0 +1,4 @@
+/app/tmp/*
+/vendors/*
+/.idea/*
+/.editorconfig
